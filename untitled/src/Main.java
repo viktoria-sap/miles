@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         long bonus;
-        long amountInKopeck = 100_000;
-        if (amountInKopeck < 2000) {
+        long amount = 1000;
+        if (amount < 20) {
             bonus = 0;
         } else {
-            bonus = amountInKopeck / 2000;
+            bonus = amount / 20;
         }
         System.out.println(bonus);
     }
